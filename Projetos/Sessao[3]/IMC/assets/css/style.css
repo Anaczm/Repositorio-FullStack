@@ -1,0 +1,68 @@
+:root{
+    --background: rgb(245, 230, 230);
+    --button: rgb(99, 124, 216);
+    --hover: rgb(80, 110, 219);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0em;
+    line-height: 1.5em; 
+}
+
+.container{
+    max-width: 640px;
+    margin: 20px auto;
+    background: rgb(200, 210, 245);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--background);
+}
+
+form button{
+    border: none;
+    background: var(--button);
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: var(--hover);
+}
+
+.p-goodResult{
+    background: #b0ffa9;
+    padding: 10px 20px;
+}
+
+.p-worstResult{
+    background: #ee5252;
+    padding: 10px 20px;
+}
