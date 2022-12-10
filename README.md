@@ -6,7 +6,7 @@
 
 __Front end:__ JavaScript, HTML, CSS, React, Babel, Redux, WebPack, React e React Hooks.
 
-__Back end__: NodeJs, TypeScript e Express
+__Back end__: NodeJs, TypeScript e Express.
 
 __Banco de dados__: MySql, PostgreeSql, MariaDB e MongoDB.
 
